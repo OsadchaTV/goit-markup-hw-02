@@ -13,7 +13,7 @@ ul, ol {
 
 /* ==========HEADER STYLES========== */
 .logo {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;    
     line-height: 1.17;
@@ -74,7 +74,8 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
-}
+    cursor: pointer;
+    }
 
 .section-hero-button:hover,
 .section-hero-button:focus {
