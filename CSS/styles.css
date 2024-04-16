@@ -1,3 +1,4 @@
+/* ==========GLOBAL STYLES========== */
 body {
     font-family: 'Roboto', sans-serif;
 color: #434455;
@@ -9,6 +10,8 @@ a {
 ul, ol {
     list-style: none;
 }
+
+/* ==========HEADER STYLES========== */
 .logo {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -16,7 +19,7 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
+    color: #4d5ae5;
 }
 
 .logo-part {
@@ -28,7 +31,7 @@ ul, ol {
     font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -42,7 +45,7 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color: #434455;
 }
 
 .address-link:hover,
@@ -50,12 +53,12 @@ ul, ol {
     color: #404bbf;
 }
 
+/* ==========SECTION HERO STYLES========== */
 .section-hero {
     background-color: #2e2f42 ;
 }
 
 .section-hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -64,6 +67,7 @@ ul, ol {
 }
 
 .section-hero-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -74,9 +78,10 @@ ul, ol {
 
 .section-hero-button:hover,
 .section-hero-button:focus {
-    background-color:#404bbf;
+    background-color: #404bbf;
 }
 
+/* SECTION STRATEGY AND TECHNOLOGIES STYLES */
 .section-strat-a-tech-title {
     font-weight: 500;
     font-size: 20px;
@@ -86,9 +91,42 @@ ul, ol {
 }
 
 .section-strat-a-tech-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ==========SECTION OUR TEAM STYLES========== */
+.section-our-team {
+    background-color: #F4F4FD;
+}
+
+.section-our-team-title {
+    font-size: 36px;
+    line-height: 1,11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.our-team-list {
+    background-color: #ffffff;
+}
+
+.our-team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.our-team-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
