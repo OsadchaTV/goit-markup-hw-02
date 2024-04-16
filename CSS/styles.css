@@ -1,6 +1,6 @@
 /* ==========GLOBAL STYLES========== */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #ffffff;
 }
@@ -75,7 +75,7 @@ ul, ol {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    }
+}
 
 .section-hero-button:hover,
 .section-hero-button:focus {
